@@ -49,7 +49,7 @@
  * If you're not sure, leaving it undefined will work at some cost in speed.
  * If you defined HAVE_UNSIGNED_CHAR then the speed difference is minimal.
  */
-#undef CHAR_IS_UNSIGNED
+#define CHAR_IS_UNSIGNED
 
 /* Define this if your system has an ANSI-conforming <stddef.h> file.
  */
